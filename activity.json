@@ -1,24 +1,28 @@
 {
-  "name": "unmarshaljson",
+  "name": "unmarshalresponse",
   "version": "0.0.1",
   "type": "flogo:activity",
-  "ref": "github.com/purna-s/unmarshaljson",  
-  "title": "unmarshaljson",
+  "ref": "github.com/purna-s/unmarshalresponse",  
+  "title": "unmarshalresponse",
   "description": "Unmarshal json stringto get bindcount value",
   "author": "Purna S <purna.sadanala@prowesssoft.com>",
 
   "inputs":[
     
     {
-      "name": "jsonString",
+      "name": "xmlString",
       "type": "string",
       "required": true
     }
   ],
   "outputs": [
     {
-      "name": "output",
-      "type": "integer"
+      "name": "bindcount",
+      "type": "int"
+    },
+    {
+      "name": "avginmsgrate",
+      "type": "int"
     }
   ]
 }

@@ -1,13 +1,13 @@
 ---
-title: unmarshaljson
+title: unmarshalresponse
 ---
 
-# unmarshaljson
+# unmarshalresponse
 This activity allows unmarshalling json against a given struct
 
 ## Installation
 ### Flogo CLI
 ```bash
-flogo install github.com/purna-s/unmarshaljson
+flogo install github.com/purna-s/unmarshalresponse
 ```
 
